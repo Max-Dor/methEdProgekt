@@ -1,0 +1,48 @@
+.advantage__title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.advantage__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.advantage__item{
+    flex-basis: 290px;
+    min-height: 61px;
+    font-size: 14px;
+    line-height: 140%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 61px;
+    padding: 10px 10px 10px 81px;
+}
+.advantage__item_stack {
+    background-image: url('../img/steck.svg');
+}
+
+.advantage__item_mocup {
+    background-image: url('../img/mocup.svg');
+}
+
+.advantage__item_incklusive {
+    background-image: url('../img/inclusive.svg');
+}
+
+.advantage__item_adapt {
+    background-image: url('../img/adapt.svg');
+}
+
+.advantage__item_clear {
+    background-image: url('../img/clear.svg');
+}
+
+.advantage__item_copyright {
+    background-image: url('../img/copyright.svg');
+}
+
+
